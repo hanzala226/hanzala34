@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+nav{
+    background-color: white;
+}
+.nav-item a{
+    color: black;
+    margin-right: 20px;
+}
+#logo{
+    font-size: 2.5rem;  
+    color: black;
+    font-weight: 600;
+}
+#logo:hover{
+    color:rgba(0, 0, 0, 0.511);
+}
+a button{
+    width: 100px;
+    color: white;
+    height: 50px;
+    background-color: black;
+    outline: none;
+    border: none;
+margin-top: -10px;
+    border-radius: 50% 0px 50% 0px;
+}
+.parent{
+width: 100%;
+height: 400px;
+display: flex;
+margin-top: 40px;
+justify-content: space-between;
+justify-content: space-around;
+}
+.chld1{
+    width: 45%;
+    height: 100%;
+}
+.chld1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 0% 50% 0%;
+}
+.chld2{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+}
+.chld2 h6{
+    font-size: 4rem;
+}
+.chld2 p{
+    border-left: 2px solid white;
+    padding-left: 6px;
+}
+main{
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+}
+footer{
+   background-color: black;
+   width: 100%;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   
+
+}
+.footer-content{
+    border-top: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.about{
+    width: 300px;
+}
